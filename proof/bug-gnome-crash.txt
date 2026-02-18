@@ -1,0 +1,23 @@
+Feb 18 12:20:09 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA kernel: input: HD-Audio Generic HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:08.1/0000:04:00.1/sound/card0/input9
+Feb 18 12:20:09 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA systemd[1]: Started fstrim.timer - Discard unused filesystem blocks once a week.
+Feb 18 12:20:16 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[1743]: Added device '/dev/dri/card0' (simpledrm) using atomic mode setting.
+Feb 18 12:20:16 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[1743]: Created gbm renderer for '/dev/dri/card0'
+Feb 18 12:20:16 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[1743]: Integrated GPU /dev/dri/card0 selected as primary
+Feb 18 12:20:19 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA kernel: input: HD-Audio Generic Headset Mic as /devices/pci0000:00/0000:00:08.1/0000:04:00.6/sound/card1/input10
+Feb 18 12:20:19 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA kernel: input: HD-Audio Generic Headphone as /devices/pci0000:00/0000:00:08.1/0000:04:00.6/sound/card1/input11
+Feb 18 12:20:20 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[1743]: Failed to ensure KMS FB ID on /dev/dri/card0: drmModeAddFB failed: No such device
+Feb 18 12:20:21 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA nordvpn.nordvpnd[1386]: 2026/02/18 12:20:21 [Warning] [moose] Discarding unsupported type ([]int64) on path: developer.nordvpnapp.allowlist.tcp_ports
+Feb 18 12:20:21 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA nordvpn.nordvpnd[1386]: 2026/02/18 12:20:21 [Warning] [moose] Discarding unsupported type ([]int64) on path: developer.nordvpnapp.allowlist.udp_ports
+Feb 18 12:20:21 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[2509]: Device '/dev/dri/card1' prefers shadow buffer
+Feb 18 12:20:21 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[2509]: Added device '/dev/dri/card1' (amdgpu) using atomic mode setting.
+Feb 18 12:20:21 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[2509]: Created gbm renderer for '/dev/dri/card1'
+Feb 18 12:20:21 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[2509]: GPU /dev/dri/card1 selected primary from builtin panel presence
+Feb 18 12:21:23 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[3683]: Device '/dev/dri/card1' prefers shadow buffer
+Feb 18 12:21:23 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[3683]: Added device '/dev/dri/card1' (amdgpu) using atomic mode setting.
+Feb 18 12:21:23 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[3683]: Created gbm renderer for '/dev/dri/card1'
+Feb 18 12:21:23 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[3683]: GPU /dev/dri/card1 selected primary from builtin panel presence
+Feb 18 12:21:24 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA systemd[3412]: Starting org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service...
+Feb 18 12:21:24 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA systemd[3412]: Started org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service.
+Feb 18 12:21:24 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA systemd[3412]: Reached target org.gnome.SettingsDaemon.Smartcard.target - GNOME smartcard target.
+Feb 18 12:21:33 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[3683]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Feb 18 12:22:01 jillravaliya-ASUS-Vivo-AIO-V241DAP-M241DA gnome-shell[3683]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed

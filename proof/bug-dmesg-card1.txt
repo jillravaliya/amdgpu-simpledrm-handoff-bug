@@ -1,0 +1,74 @@
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-6.17.0-14-generic root=UUID=d563d94d-89c0-4ce4-99b7-39382f0bb311 ro quiet splash amdgpu.dc=1 vt.handoff=7
+[    0.031770] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.17.0-14-generic root=UUID=d563d94d-89c0-4ce4-99b7-39382f0bb311 ro quiet splash amdgpu.dc=1 vt.handoff=7
+[    0.404994] [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+[    0.407532] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+[   15.809741] [drm] amdgpu kernel modesetting enabled.
+[   16.010060] amdgpu: Virtual CRAT table created for CPU
+[   16.010089] amdgpu: Topology: Add CPU node
+[   16.010253] amdgpu 0000:04:00.0: enabling device (0006 -> 0007)
+[   16.010333] amdgpu 0000:04:00.0: amdgpu: initializing kernel modesetting (RAVEN 0x1002:0x15D8 0x1043:0x1302 0xCD).
+[   16.011385] amdgpu 0000:04:00.0: amdgpu: register mmio base: 0xFCB00000
+[   16.011390] amdgpu 0000:04:00.0: amdgpu: register mmio size: 524288
+[   16.018988] amdgpu 0000:04:00.0: amdgpu: [drm] Optional firmware "amdgpu/picasso_ip_discovery.bin" was not found
+[   16.019001] amdgpu 0000:04:00.0: amdgpu: detected ip block number 0 <soc15_common>
+[   16.019004] amdgpu 0000:04:00.0: amdgpu: detected ip block number 1 <gmc_v9_0>
+[   16.019006] amdgpu 0000:04:00.0: amdgpu: detected ip block number 2 <vega10_ih>
+[   16.019008] amdgpu 0000:04:00.0: amdgpu: detected ip block number 3 <psp>
+[   16.019010] amdgpu 0000:04:00.0: amdgpu: detected ip block number 4 <powerplay>
+[   16.019012] amdgpu 0000:04:00.0: amdgpu: detected ip block number 5 <dm>
+[   16.019014] amdgpu 0000:04:00.0: amdgpu: detected ip block number 6 <gfx_v9_0>
+[   16.019016] amdgpu 0000:04:00.0: amdgpu: detected ip block number 7 <sdma_v4_0>
+[   16.019018] amdgpu 0000:04:00.0: amdgpu: detected ip block number 8 <vcn_v1_0>
+[   16.027866] amdgpu 0000:04:00.0: amdgpu: Fetched VBIOS from VFCT
+[   16.027874] amdgpu: ATOM BIOS: 113-RAVEN2-117
+[   16.087598] amdgpu 0000:04:00.0: vgaarb: deactivate vga console
+[   16.087606] amdgpu 0000:04:00.0: amdgpu: Trusted Memory Zone (TMZ) feature enabled
+[   16.087665] amdgpu 0000:04:00.0: amdgpu: vm size is 262144 GB, 3 levels, block size is 9-bit, fragment size is 9-bit
+[   16.087675] amdgpu 0000:04:00.0: amdgpu: VRAM: 2048M 0x000000F400000000 - 0x000000F47FFFFFFF (2048M used)
+[   16.087678] amdgpu 0000:04:00.0: amdgpu: GART: 1024M 0x0000000000000000 - 0x000000003FFFFFFF
+[   16.091432] amdgpu 0000:04:00.0: amdgpu: amdgpu: 2048M of VRAM memory ready
+[   16.091440] amdgpu 0000:04:00.0: amdgpu: amdgpu: 4946M of GTT memory ready.
+[   16.092292] amdgpu: hwmgr_sw_init smu backed is smu10_smu
+[   16.093737] amdgpu 0000:04:00.0: amdgpu: Found VCN firmware Version ENC: 1.15 DEC: 3 VEP: 0 Revision: 0
+[   16.117629] amdgpu 0000:04:00.0: amdgpu: reserve 0x400000 from 0xf47fc00000 for PSP TMR
+[   16.187624] amdgpu 0000:04:00.0: amdgpu: failed to load ucode RLC_RESTORE_LIST_CNTL(0x29) 
+[   16.187632] amdgpu 0000:04:00.0: amdgpu: psp gfx command LOAD_IP_FW(0x6) failed and response status is (0xFFFF300F)
+[   16.188109] amdgpu 0000:04:00.0: amdgpu: failed to load ucode RLC_RESTORE_LIST_GPM_MEM(0x2A) 
+[   16.188114] amdgpu 0000:04:00.0: amdgpu: psp gfx command LOAD_IP_FW(0x6) failed and response status is (0xFFFF000F)
+[   16.188562] amdgpu 0000:04:00.0: amdgpu: failed to load ucode RLC_RESTORE_LIST_SRM_MEM(0x2B) 
+[   16.188566] amdgpu 0000:04:00.0: amdgpu: psp gfx command LOAD_IP_FW(0x6) failed and response status is (0xFFFF000F)
+[   16.245572] amdgpu 0000:04:00.0: amdgpu: RAS: optional ras ta ucode is not available
+[   16.259768] amdgpu 0000:04:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[   16.259774] amdgpu 0000:04:00.0: amdgpu: SECUREDISPLAY: optional securedisplay ta ucode is not available
+[   16.261095] amdgpu 0000:04:00.0: amdgpu: [drm] Display Core v3.2.340 initialized on DCN 1.0.1
+[   16.288954] snd_hda_intel 0000:04:00.1: bound 0000:04:00.0 (ops amdgpu_dm_audio_component_bind_ops [amdgpu])
+[   16.398003] amdgpu 0000:04:00.0: amdgpu: kiq ring mec 2 pipe 1 q 0
+[   16.450111] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[   16.450129] kfd kfd: amdgpu: Total number of KFD nodes to be created: 1
+[   16.464949] amdgpu: Virtual CRAT table created for GPU
+[   16.465009] amdgpu: Topology: Add dGPU node [0x15d8:0x1002]
+[   16.465013] kfd kfd: amdgpu: added device 1002:15d8
+[   16.465030] amdgpu 0000:04:00.0: amdgpu: SE 1, SH per SE 1, CU per SH 3, active_cu_number 2
+[   16.466362] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[   16.466368] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[   16.466370] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[   16.466372] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[   16.466374] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[   16.466376] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[   16.466378] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[   16.466379] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[   16.466381] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[   16.466383] amdgpu 0000:04:00.0: amdgpu: ring kiq_0.2.1.0 uses VM inv eng 11 on hub 0
+[   16.466384] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 8
+[   16.466386] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 8
+[   16.466388] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 8
+[   16.466389] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 8
+[   16.466391] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 8
+[   16.511937] amdgpu: pp_dpm_get_sclk_od was not implemented.
+[   16.511943] amdgpu: pp_dpm_get_mclk_od was not implemented.
+[   16.512136] amdgpu 0000:04:00.0: amdgpu: Runtime PM not available
+[   16.512475] amdgpu 0000:04:00.0: amdgpu: [drm] Using custom brightness curve
+[   16.512690] amdgpu 0000:04:00.0: [drm] Registered 3 planes with drm panic
+[   16.512693] [drm] Initialized amdgpu 3.64.0 for 0000:04:00.0 on minor 1
+[   16.532782] fbcon: amdgpudrmfb (fb0) is primary device
+[   16.532792] amdgpu 0000:04:00.0: [drm] fb0: amdgpudrmfb frame buffer device

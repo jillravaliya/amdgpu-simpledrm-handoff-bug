@@ -1,0 +1,7 @@
+total 0
+drwxr-xr-x   3 root root        100 Feb 18 12:20 .
+drwxr-xr-x  21 root root       5420 Feb 18 12:20 ..
+drwxr-xr-x   2 root root         80 Feb 18 12:20 by-path
+crw-rw----+  1 root video  226,   1 Feb 18 12:20 card1
+crw-rw----+  1 root render 226, 128 Feb 18 12:20 renderD128
+BOOT_IMAGE=/boot/vmlinuz-6.17.0-14-generic root=UUID=d563d94d-89c0-4ce4-99b7-39382f0bb311 ro quiet splash amdgpu.dc=1 vt.handoff=7
